@@ -11,8 +11,8 @@ env:
     AZURE_RESOURCEGROUP_NAME: ContosoSample3-RG                      # set this to your preferred resource group name
     AZURE_WEBAPP_NAME: DevMCLPD1svr                          # set this to your preferred web app name
     ASP_NAME:  DevMCLPD1asp
-    SQLSERVER_NAME:  DevMCLPD1SQLsvr                          # set this to your preferred sql server name
-    DATABASE_NAME:  DevMCLPD1db                   # set this to your preferred sql database name
+    SQLSERVER_NAME:  devmclpd1sqlsvr                          # set this to your preferred sql server name
+    DATABASE_NAME:  devmclpd1db                   # set this to your preferred sql database name
     SQLADMIN_LOGIN: ${{ secrets.SQLADMIN_LOGIN  }}                # Create a secret in your Github repo for the SQL Admin login name you want to use
     SQLADMIN_PASS: ${{ secrets.SQLADMIN_PASS  }}                 # Create a secret in your Github repo for the SQL Admin password you want to use
 
