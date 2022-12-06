@@ -2,7 +2,7 @@ name: Build and deploy app
 
 on:
   workflow_dispatch:
-  push
+  push:
 
 # CONFIGURATION
 # For help, go to https://github.com/Azure/Actions
